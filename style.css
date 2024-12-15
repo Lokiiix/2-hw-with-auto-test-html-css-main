@@ -21,7 +21,6 @@ header span {
 	font-weight: 700;
 	font-size: 20px;
 	color: #fff;
-	padding: ;
 }
 
 .main-section {
@@ -46,7 +45,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 		height: 508px;
 }
 
@@ -82,7 +81,7 @@ select {
 	height: 57px;
 	font-weight: 400;
 	font-size: 16px;
-	padding-left: 20px;
+	padding:0 20px;
 	list-style-image: url('./assets/image/Vector.svg');
 }
 
@@ -90,7 +89,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
 		font-weight: 400;
 		font-size: 16px;
-		padding-left: 20px;
+		padding:0 20px;
 }
 
 .label {
@@ -133,6 +132,7 @@ table {
     /* Стили для таблицы */
 		min-width: 300px;
 		min-height: 196px;
+		font-size: 14px;
 		border-collapse: collapse;
 		
 }
@@ -140,9 +140,8 @@ table {
 th, td {
     /* Стили для ячеек таблицы */
 		border: 1px solid #95a1bb;
-		padding: 10px 0 11px 15px;
+		padding: 12px 15px;
 		font-weight: 400, 700;
-		font-size: 14px;
 		text-align: left;
 		color: #303030;
 }
@@ -150,7 +149,7 @@ th, td {
 footer {
     /* Стили для футера */
 		background-color: rgba(163, 167, 255, 0.3);
-		padding: 26px 0 27px 1px;
+		padding: 26px 0;
 }
 
 .footer-link {
